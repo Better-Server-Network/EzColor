@@ -1,0 +1,15 @@
+name: EzColor
+version: '${project.version}'
+main: org.betterservernetwork.ezcolor.EzColor
+api-version: '1.18'
+author: BetterServerNetwork
+commands:
+  ezcolor:
+    description: Recolors leather armor in hand.
+    usage: /ezcolor <hex>
+    permission: ezcolor
+
+permissions:
+  ezcolor:
+    default: op
+    description: Allows usage of /ezcolor
